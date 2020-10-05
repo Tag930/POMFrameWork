@@ -47,7 +47,7 @@ public class LoginPageTest extends TestBase {
 	}
 	
 	@AfterMethod
-	public void teardon() {
+	public void teardown() {
 		driver.quit();
 	}
 
